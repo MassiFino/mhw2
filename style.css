@@ -1,0 +1,108 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+.choice-grid{
+	align-content: space-between;
+  	display:flex;
+  	flex-wrap:wrap;
+  	justify-content: space-between;
+  	width: 100%;
+}
+
+
+.choice-grid div{
+	width: 32.5%;
+	border: 1px solid #dcdcdc;
+	box-sizing: border-box;
+		padding: 10px;
+	margin-bottom: 20px;
+	background-color: #f4f4f4;
+}
+
+
+.choice-grid img{
+	width: 100%;
+}
+
+.choice-grid img.checkbox{
+	display: flex;
+	justify-content: center;
+}
+
+.opacita{
+	opacity: 0.6;
+}
+
+.choice-grid .hidden{
+	background-color: #cfe3ff;
+}
+.space{
+	height: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.none{
+	display: none;
+}
+
+.ritorno{
+	background-color:#cecece;
+	height:50px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 18px;
+}
+
+#result span{
+	margin-top: 18px;
+}
+
+#result{
+	margin:20px;
+}
+
+.choice-grid img{
+	width: 100%;
+	height: 85%;
+}
+
+.question-name{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#result span{
+	cursor: pointer;
+}
+
+
+@media (max-width: 700px){
+	article{
+		width: 100%;
+
+	}
+
+	article div span{
+		display: none;
+	}
+	header{
+		width:95%;
+	}
+
+	.choice-grid{
+		width: 95%;
+		margin-left: 2.5%;
+	}
+	.question-name{
+		width: 95%;
+		margin-left: 2.5%;
+	}
+
+
+}
+
+@media(max-width: 500px){
+	.choice-grid div{
+		width: 49%;
+	}
+}
